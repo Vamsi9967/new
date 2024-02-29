@@ -699,7 +699,7 @@ animation: blink 0.7s infinite;
     margin-left: 76px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 412px) {
   body {
     overflow-x: auto; /* Allow horizontal scrolling */
   }
