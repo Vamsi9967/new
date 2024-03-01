@@ -394,6 +394,7 @@ animation: blink 0.7s infinite;
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 69px;
 }
 
 .portfolio button {
