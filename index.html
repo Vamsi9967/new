@@ -234,20 +234,21 @@
                 <div class="col-sm-2">
                 </div>
                 <div class="col-sm-3">
-                    <div style="display: flex;">
+                <div style="display: flex;">
+                    <!-- Image button wrapped in an anchor tag with the URL -->
+                    <a href="img/music poster.png" target="_blank">
                         <button class="button" id="downloadButton2">
                             <span class="button_lg">
                                 <span class="button_sl"></span>
-                                <span class="button_text"><img src="img/music poster.png" style="height: 150px; width: 250px;"></span>
+                                <span class="button_text">
+                                    <img src="img/music poster.png" style="height: 150px; width: 250px;">   
+                                </span>
                             </span>
                         </button>
-                        <!-- Unique ID for the first popup -->
-                        <div class="popup" id="downloadPopup2">
-                            <img src="img/music poster.png" alt="Download Image" class="popup-image">
-                            <span class="close" onclick="closePopup('downloadPopup2')">&times;</span>
-                        </div>
-                    </div>
+                    </a>
+                    <!-- End of anchor tag -->
                 </div>
+            </div>
                 <div class="col-sm-3">
                     <div style="display: flex;">
                         <button class="button" id="downloadButton3">
