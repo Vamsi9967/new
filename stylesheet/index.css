@@ -126,7 +126,7 @@ display: block;
 }
 }
 
-@media screen and (min-width: 769px) and (max-width:1440px) {
+@media screen and (min-width: 769px) and (max-width:2560px) {
   .group1 {
   display: none;
   }
