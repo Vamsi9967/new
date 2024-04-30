@@ -181,7 +181,7 @@ transform: scale(1);
 transition-delay: 0.25s;
 }
 li.active {
-background-color: #5b7d9e;
+background-color: #4169e1;
 }
 .navbar li.active .icon i {
 color: #fff; /* Change the color to white */
