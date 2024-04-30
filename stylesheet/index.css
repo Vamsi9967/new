@@ -1248,15 +1248,9 @@ color: #ffffff;
     color: #fff;
     }
 
-    .group{
-      margin-top: 180px;
-    }
-
     @media only screen and (max-width:1280px){
 
-      .group{
-        margin-top: 5px;
-      }
+      
       .ul{
         margin-top: 10px;
       }
