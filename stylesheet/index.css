@@ -181,7 +181,7 @@ transform: scale(1);
 transition-delay: 0.25s;
 }
 li.active {
-background-color: #4169e1;
+background-color: #5b7d9e;
 }
 .navbar li.active .icon i {
 color: #fff; /* Change the color to white */
@@ -296,10 +296,10 @@ padding-top: 20px; /* Adjusted for spacing */
 /* text-align: center; */
 }
 
-.then{
+.then {
 height: 362px;
 width: 253px;
-border-radius: 164px;
+border-radius: 165px;
 margin-top: 200px;
 margin-left: 76px;
 box-shadow: 0 6px 10px rgb(165, 195, 255);
@@ -546,35 +546,6 @@ pointer-events: none;
 background-color: #1e65d1 !important;
 }
 
-.popup {
-display: none;
-position: fixed;
-z-index: 1;
-left: 0;
-top: 0;
-width: 100vw;
-height: 100vh;
-background-color: rgba(0, 0, 0, 0.5);
-overflow: auto;
-}
-
-.popup-image {
-display: block;
-margin: auto;
-max-width: calc(100vw - 100px);
-max-height: calc(100vh - 100px);
-overflow: auto;
-}
-
-.close {
-color: white;
-position: absolute;
-top: 10px;
-right: 25px;
-font-size: 35px;
-cursor: pointer;
-}
-
 .button {
 -moz-appearance: none;
 -webkit-appearance: none;
@@ -806,14 +777,6 @@ background: rgba(0, 0, 0, 0.9);
 #return-to-top:hover i {
 color: #fff;
 top: 5px;
-}
-
-.then{
-height: 362px;
-width: 253px;
-border-radius: 164px;
-margin-top: 130px;
-margin-left: 76px;
 }
 
 @media only screen and (max-width: 412px) {
@@ -1277,4 +1240,17 @@ color: #ffffff;
 
     .group{
       margin-top: 180px;
+    }
+
+    @media only screen and (max-width:1280px){
+
+      .group{
+        margin-top: 5px;
+      }
+      .ul{
+        margin-top: 10px;
+      }
+      .then{
+        margin-top: 100px;
+      }
     }
